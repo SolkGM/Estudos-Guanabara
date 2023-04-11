@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de caixas</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+<style>
+    h1{
+        background-color: lightgray;
+        height: 300px;
+        width: 300px;
+
+
+        border-width: 10px;
+        border-style: solid;
+        border-color: darkgrey;
+
+      border:10px solid darkgrey ; /* a linha 21 equivale a linha 17 a 18 so que simplificada*/
+
+            /*para configurar paddding ou margin configure como o relogio sempre começando por cima*/
+        padding-top: 10px;  
+        padding-right: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+
+        padding: 10px 10px 10px 10px ;/*equivalente a linha 24 a 27 */
+        padding: 10px;  /* digitando apenas um numero o sistema reconhece que todos os outros sao iguais */
+        padding: 10px 20px ; /* digitando dois numeros o sitema reconhece que o primeiro valor e = a top e botton e o segundo valor equivale a rigth e left*/
+
+        margin-top: 20px;
+        margin-right: 20px;
+        margin-bottom: 40px;
+        margin-left: 20px;
+
+        margin: 20px 20px 40px 20px; /*simplificaçao da linha 33 a 36*/
+        margin: 20px auto 20px auto; /* tambem podemos usar o auto'centralizar' no lugar dos px */         
+
+        outline-width: 5px;
+        outline-style: dashed;
+        outline-color: salmon;
+        
+        outline: 5px dashed salmon;/* simplificaçao equivalente a linha 41 a 43 */ 
+
+    }
+
+    a{
+        border-width: 10px;
+        border-style: solid;
+        border-color: red;
+        margin: auto; /* serve para centralizar uma box na pagina */
+
+    }
+</style>
+</head>
+
+<body>
+        <h1>Exemplo de caixa box level
+
+        </h1>
+        <p>Paragrafos tambem sao exemplos de box level, mas os <a href="@">links sao exemplos de caixas inline-level</a>vamos ver como tudo isso funciona</p>
+    
+</body>
+</html>

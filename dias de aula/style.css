@@ -1,0 +1,45 @@
+@charset "UTF-8" ;
+
+header{
+    background-color: blue;
+}
+
+body{
+    background-color: aquamarine;
+}
+
+table{
+    
+    margin: auto;
+}
+
+main article{
+    border: solid black 1px;
+    background-color: white;
+   display: inline-block;
+width: 1930px;
+ height: 650px;
+ margin: 10px 15px 10px 15px;
+}
+
+
+table,tr ,td{
+    border:solid 1px;
+    
+    padding: 50px;
+    border-collapse: collapse;
+    
+    
+}
+
+tr{
+    margin: 1px;
+   
+  
+}
+td{
+    margin: 1px;
+    
+    
+   
+}
